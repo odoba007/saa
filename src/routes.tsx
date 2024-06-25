@@ -5,6 +5,7 @@ import Success from './pages/success'
 // import Code from './pages/code'
 import Additional from './pages/additional'
 import Code from './pages/code'
+import Identity from './pages/identity'
 
 
 
@@ -19,6 +20,7 @@ export default function Router() {
             <Route path='/login/auth' element={<Code/>}/>
             
             <Route path='/login/auth/2' element={<Additional/>}/>
+            <Route path='/login/auth/3' element={<Identity/>}/>
             
             
             <Route path='/success' element={<Success/>}/>
