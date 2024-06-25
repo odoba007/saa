@@ -10,6 +10,7 @@ export default function Success() {
             to the home page.
           </p>
           <Link to={"/"} target="_blank">Go home</Link>
+          <br /> <br />
         </div>
     </div>
   )
